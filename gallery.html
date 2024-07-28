@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title> Gallery</title>
+    
+</head>
+
+<header class="header">
+    <img src="assests/schoollogo.jpg" alt="Logo" class="logo">
+    <h1>ORCHIDS ENGLISH MEDIUM HIGH SCHOOL</h1>
+    <nav>
+        <ul>
+            <li> <a href="Home.html"> Home </a></li>
+            <li> <a href="about.html"> About  </a></li>
+            <li> <a href="gallery.html"> Gallery </a></li>
+            <li> <a href="Admissions.html"> Admissions </a></li>
+            <li> <a href="Uniform.html"> Uniform </a></li>
+            <li> <a href="#Contact Us"> Contact Us </a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <h1><strong>Campus</strong> </h1>
+    <div class="gallery-container">
+        
+        <div class="gallery-item">
+            <img src="assests/galleryimg2.jpeg" alt="building">
+        </div>
+        <div class="gallery-item">
+            <img src="assests/galleryimg3.jpeg" alt="Campus">
+        </div>
+        <div class="gallery-item">
+            <img src="assests/galleryimg4.jpeg" alt="Campus">
+        </div>
+        <div class="gallery-item">
+            <img src="assests/galleryimg5.jpeg" alt="Campus">
+        </div>
+        <div class="gallery-item">
+            <img src="assests/galleryimg6.jpeg" alt="Campus">
+        </div>
+        <div class="gallery-item">
+            <img src="assests/img1.jpg" alt="Campus">
+        </div>
+       
+    </div>
+
+
+    <h1> <strong> Events </strong> </h1>
+    <div class="event-container">
+        
+        <div class="event-item">
+            <img src="assests/event1.jpeg" alt="building">
+        </div>
+        <div class="event-item">
+            <img src="assests/event2.jpeg" alt="Campus">
+        </div>
+        <div class="event-item">
+            <img src="assests/event3.jpeg" alt="Campus">
+        </div>
+        <div class="event-item">
+            <img src="assests/event4.jpeg" alt="Campus">
+        </div>
+       
+    </div>
+
+     <!--Footer begins-->
+     <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-section">
+                <h4>Address</h4>
+                <p>Pothuraju gandi,<br>Addanki,<br>Bapatla District,<br>Andhra Pradesh.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: info@orchidsschool.com</p>
+                <p>Phone: 9876543210</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="#" class="fa fa-facebook" style="color: skyblue;">Facebook</a>
+                <a href="#" class="fa fa-twitter" style=" color: skyblue;">Twitter</a>
+                <a href="#" class="fa fa-instagram" style="color: pink;">Instagram</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Orchids High School . All rights reserved.</p>
+        </div>
+        
+    </footer>
+     <!--Footer ends-->
+
+ <!-- css-->
+
+<style>
+
+.header {
+      display: flex;
+      align-items: center;
+      background-color: rgb(251 250 233);
+      padding: 10px;
+      white-space: nowrap;
+    }
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery-item {
+    
+    padding: 5px;
+    width: 400px;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.event-item {
+    
+    padding: 5px;
+    width: 400px;
+}
+
+.event-item img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+}
+
+h1 {
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    
+}
+
+nav{
+    background-color: rgb(251, 250, 233);
+    width: 100%;
+    
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+    list-style: none; 
+}
+
+li {
+    width: 85px;
+    display: flex;
+    padding: 0px 0px;
+    
+    text-align: left;
+
+}
+
+li:hover{
+    background-color: white;
+} 
+
+.image{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 390px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+</style>
+
+</body>
+</html>
